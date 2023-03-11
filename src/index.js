@@ -18,7 +18,8 @@ const  setupAndStartServer =async()=>{
         // const repo = new CityRepository();
         // repo.createCity({name:"muzaffarpur"});
         // repo.deleteCity(1);
-
+        // repo.updateCity(12,{name:"chandigarh"});
+        // console.log(await repo.getCity(12)); 
     });
 }
 
