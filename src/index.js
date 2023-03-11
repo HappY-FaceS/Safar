@@ -2,7 +2,10 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const City = require('./models/index');
 const {PORT}=require('./config/serverConfig');
-const CityRepository = require('./repository/city-repository');
+// const CityRepository = require('./repository/city-repository');
+
+
+const ApiRoutes = require('./routes/index');
 
 const  setupAndStartServer =async()=>{
     // create express object
@@ -11,6 +14,8 @@ const  setupAndStartServer =async()=>{
     
     app.use(bodyParser.json()); // middleware
     app.use(bodyParser.urlencoded({extended: true})); // middleware
+
+    app.use('/api', ApiRoutes);
 
 
     app.listen(PORT, async ()=>{
