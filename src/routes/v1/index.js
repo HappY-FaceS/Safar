@@ -11,6 +11,7 @@ router.get('/city/:id', CityController.get); // GET : /api/v1/city/id
 router.get('/city', CityController.getAll);
 router.patch('/city/:id', CityController.update); // PATCH : /api/v1/city/id
 
+router.get('/flights',FlightController.getAll); // get all the flights based on filters
 router.post('/flights', FlightController.create);
 
 module.exports = router;
