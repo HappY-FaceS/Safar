@@ -1,6 +1,11 @@
 # Safar : An Application for booking flight Tickets & services related to AirTravel
 -> This Project is solely for the backend API development & integrations related to the different services 
 
+# Safar-Search-flights-Service : This repo is search services and API related to whole backend Project
+
+[DESIGN DOC](shorturl.at/gklGO)
+
+
 ## Project Setup:
  - clone the project on your local ( git clone ... )
  - Execute `npm install` on the same path as of your root directory of the downloaded project
