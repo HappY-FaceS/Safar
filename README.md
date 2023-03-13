@@ -3,7 +3,7 @@
 
 # Safar-Search-flights-Service : This repo is search services and API related to whole backend Project
 
-[DESIGN DOC](shorturl.at/gklGO)
+[DESIGN DOC](https://docs.google.com/document/d/18Az_VeNbd9sjkZpcMkdjBM1kimqoFTH1mbOeB14Z0Ow/edit?usp=sharing)
 
 
 ## Project Setup:
@@ -24,7 +24,7 @@
 
  ```
 
- - Once you've added your DB config as listed above,go to the src folder from your terminal and excute the command `npx seqelize db:create`
+ - Once you've added your DB config as listed above,go to the src folder from your terminal and excute the command `npx sequelize db:create`
  and then execute 
 
  `npx sequelize db:migrate`
